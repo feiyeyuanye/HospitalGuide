@@ -1,0 +1,48 @@
+{
+	"index.html": {
+		"resources": [
+			"css/exam.css",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/man.png",
+			"js/exam.js",
+			"img/boy.png",
+			"img/woman.png",
+			"img/girl.png",
+			"css/option.css",
+			"img/zhuanshen.png",
+			"img/right.png",
+			"fonts/mui.ttf",
+			"pull.html",
+			"index2.html"
+		],
+		"refer": [
+			"pull.html",
+			"index2.html"
+		]
+	},
+	"pull.html": {
+		"resources": [
+			"css/mui.min.css",
+			"img/right.png",
+			"fonts/mui.ttf",
+			"css/option.css",
+			"index2.html"
+		],
+		"refer": [
+			"index2.html"
+		]
+	},
+	"index2.html": {
+		"resources": [
+			"img/wwRight.png",
+			"img/wwLeft.png",
+			"css/mui.min.css",
+			"css/style.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

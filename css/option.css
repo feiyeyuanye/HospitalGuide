@@ -1,0 +1,56 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.mui-table-view-cell {
+	list-style-type: none;
+	background: white;
+}
+
+.mui-navigate-right {
+	font-size: 17px;
+	color: black;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	z-index: 100;
+	transition: 0.1s linear;
+}
+
+.ima {
+	width: 20%;
+	height: 4%;
+	position: relative;
+	left: 40%;
+	right: 40%;
+	top: 46.5%;
+	bottom: 46.5%;
+}
+
+.leftMain {
+	width: 35%;
+	height: 100%;
+	/*	  background-color:#000000;*/
+	filter: Alpha(opacity=60);
+	background-color: rgba(0, 0, 0, 0.6);
+	float: left;
+}
+
+.rightMain {
+	width: 65%;
+	height: 100%;
+	background: white;
+	float: left;
+}
+
+.zhengZhuang {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 10px;
+}
